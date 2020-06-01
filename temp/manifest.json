@@ -1,0 +1,51 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.5",
+  "id": "f44a9ac0-a3cb-11ea-9f88-39d38d2b354b",
+  "version": "0.0.1",
+  "packageName": "ibmdemoappdeploy",
+  "developer": {
+    "name": "Contoso",
+    "websiteUrl": "https://ibmdemoappdeploy.azurewebsites.net",
+    "privacyUrl": "https://ibmdemoappdeploy.azurewebsites.net/privacy.html",
+    "termsOfUseUrl": "https://ibmdemoappdeploy.azurewebsites.net/tou.html"
+  },
+  "name": {
+    "short": "IBMDemoAppDeploy",
+    "full": "IBMDemoAppDeploy"
+  },
+  "description": {
+    "short": "TODO: add short description here",
+    "full": "TODO: add full description here"
+  },
+  "icons": {
+    "outline": "icon-outline.png",
+    "color": "icon-color.png"
+  },
+  "accentColor": "#D85028",
+  "configurableTabs": [],
+  "staticTabs": [
+    {
+      "entityId": "default-data",
+      "name": "IBMDemoAppDeploy",
+      "contentUrl": "https://ibmdemoappdeploy.azurewebsites.net/ibmDemoAppDeployTab/",
+      "scopes": [
+        "personal"
+      ]
+    }
+  ],
+  "bots": [],
+  "connectors": [],
+  "composeExtensions": [],
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "validDomains": [
+    "ibmdemoappdeploy.azurewebsites.net"
+  ],
+  "webApplicationInfo": {
+    "id": "00000000-0000-0000-0000-000000000000",
+    "resource": "api://ibmdemoappdeploy.azurewebsites.net/00000000-0000-0000-0000-000000000000"
+  }
+}
